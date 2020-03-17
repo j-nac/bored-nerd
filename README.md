@@ -3,4 +3,4 @@ A website about me and things I like to do. I'm also gonna be using this to prac
 
 | Version | Date | Name | Explaination |
 | --- | --- | --- | --- |
-| 0.0 | 03-16-2020 | j-nac | Repo Created |
+| 0.0 | 03-16-2020 | j-nac | Repo created |
