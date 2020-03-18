@@ -3,6 +3,5 @@ A website about me and things I like to do. I'm also gonna be using this to prac
 
 | Version | Date | Contributer | Explaination |
 | --- | --- | --- | --- |
-| 0.0 | 03-16-2020 | j-nac | Repo created |
-| 0.1 | 03-17-2020 | j-nac | HTML and CSS files added. Github page setup. Palette and font info added. |
-| 0.2 | 03-18-2020 | j-nac | Navbar added. Basic pages created. Font issue fixed. |
+| 0.0.0 | 03-16-2020 | j-nac | Repo created |
+| 0.1.0 | 03-18-2020 | j-nac | Navbar added. Basic pages created. |
