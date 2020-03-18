@@ -1,0 +1,56 @@
+/*
+Info:
+  Fonts:
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Playfair Display', serif;
+  Palette:
+    rgb(69, 72, 81) Outer Space (Dark Blue-Black)
+    rgb(191, 192, 192) Silver (Grey)
+    rgb(219, 84, 97) Dark Terra Cotta (Matte Red)
+    rgb(149, 215, 174) Turquoise green (Light Green)
+    rgb(255, 255, 255) White
+    rgb(0, 0, 0) Black
+*/
+
+body {
+    color: rgb(0, 0, 0);
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.content {
+    margin-left:20%;
+    padding:1px 16px;
+}
+
+
+/* Navbar Settings*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  background-color: rgb(69, 72, 81);
+  height: 100%;
+  position: fixed;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: rgb(255, 255, 255);
+  padding: 8px 16px;
+  text-decoration: none;
+  text-align: center;
+}
+
+li a:hover:not(#active) {
+  background-color: rgb(0, 0, 0);
+}
+
+#active {
+  background-color: rgb(219, 84, 97);
+}
