@@ -1,5 +1,5 @@
-# Me
-A website about me and things I like to do. I'm also gonna be using this to practice coding, documentation, etc.
+# Bored Nerd
+A website about whatever.
 
 | Version | Date | Contributer | Explaination |
 | --- | --- | --- | --- |
