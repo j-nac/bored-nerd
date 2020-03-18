@@ -1,0 +1,19 @@
+/*
+Info:
+    Fonts:
+        font-family: 'Raleway', sans-serif;
+        font-family: 'Playfair Display', serif;
+        font-family: 'Ubuntu', sans-serif;
+    Palette:
+        rgb(69, 72, 81) Outer Space (Dark Blue-Black)
+        rgb(191, 192, 192) Silver (Grey)
+        rgb(219, 84, 97) Dark Terra Cotta (Matte Red)
+        rgb(149, 215, 174) Turquoise green (Light Green)
+        rgb(255, 255, 255) White
+        rgb(0, 0, 0) Black
+*/
+
+body {
+    color: rgb(0, 0, 0)
+    font-family: 'Ubuntu', sans-serif;
+}
