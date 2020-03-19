@@ -30,7 +30,6 @@ div.content {
 
 div.normcontent {
     padding: 0 16px;
-    padding-bottom: 220px;
 }
 
 
@@ -98,7 +97,7 @@ ul.sidenav li a:hover:not(#active) {
   bottom: 0;
   background-color: rgb(191, 192, 192);
   text-align: center;
-  height: 220px;
+  height: auto;
 }
 
 #stdfooter table {

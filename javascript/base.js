@@ -54,6 +54,12 @@ function addFooter() {
   }
 }
 
+function footerAutoSize() {
+  var footer = document.getElementById("stdfooter");
+  document.getElementById("norcont").style.paddingBottom = toString(footer.offsetHeight);
+}
+
 window.onload = function onLoad() {
   addFooter();
+  footerAutoSize();
 }
