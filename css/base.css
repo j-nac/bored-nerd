@@ -21,21 +21,21 @@ body {
     margin: 0;
 }
 
-.content {
+div.content {
     margin-left:20%;
     position: relative;
     min-height: 100vh;
     padding-top: 1px;
 }
 
-.normcontent {
+div.normcontent {
     padding: 0 16px;
     padding-bottom: 200px;
 }
 
 
 /* Navbar Settings*/
-ul {
+ul.sidenav {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -46,7 +46,7 @@ ul {
   overflow: auto;
 }
 
-li a {
+ul.sidenav li a {
   display: block;
   color: rgb(255, 255, 255);
   padding: 8px 16px;
@@ -54,12 +54,41 @@ li a {
   text-align: center;
 }
 
-li a:hover:not(#active) {
+ul.sidenav li a:hover:not(#active) {
   background-color: rgb(0, 0, 0);
 }
 
 #active {
   background-color: rgb(219, 84, 97);
+}
+
+@media screen and (max-width: 900px) {
+  ul.sidenav {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  
+  ul.sidenav li a {
+    float: left;
+    padding: 15px;
+  }
+  
+  div.content {margin-left: 0;}
+    
+  div.content {
+    min-height: calc(100vh - 49px);
+  }
+}
+
+@media screen and (max-width: 400px) {
+  ul.sidenav li a {
+    text-align: center;
+    float: none;
+  }
+  div.content {
+    min-height: calc(100vh - 196px);
+  }
 }
 
 /* Footer Settings */
