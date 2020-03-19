@@ -58,3 +58,4 @@ function addFooter() {
 window.onload = function onLoad() {
   addFooter();
 }
+
