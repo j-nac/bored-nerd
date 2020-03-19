@@ -25,7 +25,7 @@ function addFooter() {
     <td>S Link 3</td>\
   </tr>\
 </table>\
-<a href="../LICENSE">MIT License Copyright (c) 2020 Jakob Nacanaynay</a>";
+<a href=\"../LICENSE\">MIT License Copyright (c) 2020 Jakob Nacanaynay</a>";
   } else {
      document.getElementById("stdfooter").innerHTML = "\
 <table>\
@@ -50,7 +50,7 @@ function addFooter() {
     <td>S Link 3</td>\
   </tr>\
 </table>\
-<a href="../LICENSE">MIT License Copyright (c) 2020 Jakob Nacanaynay</a>"; 
+<a href=\"../LICENSE\">MIT License Copyright (c) 2020 Jakob Nacanaynay</a>"; 
   }
 }
 
