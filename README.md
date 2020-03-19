@@ -7,3 +7,4 @@ A website about whatever.
 | 0.1.1 | 03-18-2020 #1 | j-nac | Navbar added. Basic pages created. |
 | 0.2.0 | 03-18-2020 #2 | j-nac | Footer added. JS added. |
 | 0.2.1 | 03-18-2020 #3 | j-nac | Navigation bar adapts to different screen sizes. |
+| 0.2.2 | 03-19-2020 | j-nac | Footer screen size adapt fix. |
