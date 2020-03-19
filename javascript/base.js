@@ -1,6 +1,5 @@
 var activePage = document.getElementById("idpage").textContent;
 
-
 function addFooter() {
   if (activePage == "Welcome") {
   document.getElementById("stdfooter").innerHTML = "\
@@ -58,4 +57,3 @@ function addFooter() {
 window.onload = function onLoad() {
   addFooter();
 }
-
