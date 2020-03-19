@@ -25,7 +25,8 @@ function addFooter() {
     <td>B Link 3</td>\
     <td>S Link 3</td>\
   </tr>\
-</table>";
+</table>\
+<p>MIT License Copyright (c) 2020 Jakob Nacanaynay</p>";
   } else {
      document.getElementById("stdfooter").innerHTML = "\
 <table>\
@@ -49,7 +50,8 @@ function addFooter() {
     <td>B Link 3</td>\
     <td>S Link 3</td>\
   </tr>\
-</table>"; 
+</table>\
+<p>MIT License Copyright (c) 2020 Jakob Nacanaynay</p>"; 
   }
 }
 
