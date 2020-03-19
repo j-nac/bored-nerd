@@ -1,7 +1,7 @@
 var activePage = document.getElementById("idpage").textContent;
 
 function addFooter() {
-  if (activePage == "Welcome") {
+  if (activePage == "The Bored Nerd") {
   document.getElementById("stdfooter").innerHTML = "\
 <table>\
   <tr>\
